@@ -1,34 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
+    android:orientation="vertical"
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="#11111"
+        android:text="text1"
+        android:textColor="#2196F3"
         android:textSize="28sp" />
 
-
-
-
-
-    
     <TextView
-        android:id="@+id/TextView"
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="SuperDuperApplication"
-        android:textColor="#11111"
+        android:text="text2"
+        android:textColor="#FF9800"
         android:textSize="28sp" />
 
-    <FrameLayout
+    <Button
+        android:id="@+id/button1"
         android:layout_width="wrap_content"
-        android:layout_height="match_parent"></FrameLayout>
+        android:layout_height="wrap_content"
+        android:textColor="#9C27B0"
+        android:text="выбрать"
+        android:textSize="28sp" />
 
-    <android.support.v7.widget.AppCompatImageView
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent" />
-
-</FrameLayout>
+</LinearLayout>
